@@ -1,0 +1,42 @@
+{
+  "name": "@shukracharya/date-helper-js",
+  "version": "1.0.0",
+  "description": "Comprehensive date utility library offering formatting, difference calculations, manipulation, relative time, and validation.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Divyam-Nailwal/date-helper-js.git"
+  },
+  "keywords": [
+    "date",
+    "date-helper",
+    "date-utils",
+    "format-date",
+    "date-difference",
+    "relative-time",
+    "esm"
+  ],
+  "author": "Divyam Nailwal",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.7"
+  }
+}
